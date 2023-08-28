@@ -1,8 +1,15 @@
-import 'package:calculadora_dart/calculadora_dart.dart';
+import 'package:calculadora_dart/utils.dart';
+import 'package:mockito/annotations.dart';
+import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';
 
+
+@GenerateMocks([FakeConsoleReader])
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
+  test('Read user Name', () {
+
+
   });
 }
+
+class FakeConsoleReader extends Fake implements ConsoleReader {}
