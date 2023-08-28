@@ -1,1 +1,1 @@
-Calculadora feita em dart para o Bootcamp Santander na DIO
+Calculadora de IMC feita em dart para o Bootcamp Santander na DIO
